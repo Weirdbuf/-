@@ -32,6 +32,25 @@
 
 部署步骤：<br>
 * 0.安装所需的库 执行pip install -r requirement.txt<br>
+## 更新：具体版本如下：
+
+- **python**：Python 3.7.16
+- **flask**：
+  - Version: 2.2.5
+  - Home-page: [https://palletsprojects.com/p/flask](https://palletsprojects.com/p/flask)
+- **py2neo**：
+  - Version: 2021.2.4
+  - Summary: Python client library and toolkit for Neo4j
+  - Home-page: [https://py2neo.org/](https://py2neo.org/)
+- **pyltp**：
+  - Version: 0.4.0
+  - Summary: pyltp: the python extension for LTP 3
+  - Home-page: [https://github.com/HIT-SCIR/pyltp](https://github.com/HIT-SCIR/pyltp)
+- **beautifulsoup4**：
+  - Version: 4.12.3
+  - Summary: Screen-scraping library
+
+
 * 1.先下载好neo4j图数据库，并配好环境（注意neo4j需要jdk8）。修改neo_db目录下的配置文件config.py,设置图数据库的账号和密码。<br>
 * 2.切换到neo_db目录下，执行python  create_graph.py 建立知识图谱<br>
 * 3.去 [这里](http://pyltp.readthedocs.io/zh_CN/latest/api.html#id2) 下载好ltp模型。[ltp简介](http://ltp.ai/)<br>
